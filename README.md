@@ -9,3 +9,7 @@
 ## 使用方法
 
 把 `/Localization` 下对应语言放入 MSIAfterburner 安装目录 `/Localization` 下，重启软件。
+
+## 参与贡献
+
+注意使用对应语言编码保存，如中文使用 `GB2312`，英文使用 `UTF-8`。
