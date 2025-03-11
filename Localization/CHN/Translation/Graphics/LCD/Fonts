@@ -1,24 +1,24 @@
 #src 4x6 font
-#dst 4x6 瀛椾綋
+#dst 4x6 字体
 #end
 #src 5x6 font
-#dst 5x6 瀛椾綋
+#dst 5x6 字体
 #end
 #src 6x6 font
-#dst 6x6 瀛椾綋
+#dst 6x6 字体
 #end
 #src 6x8 font
-#dst 6x8 瀛椾綋
+#dst 6x8 字体
 #end
 #src 8x12 font
-#dst 8x12 瀛椾綋
+#dst 8x12 字体
 #end
 #src 10x12 font
-#dst 10x12 瀛椾綋
+#dst 10x12 字体
 #end
 #src 12x12 font
-#dst 12x12 瀛椾綋
+#dst 12x12 字体
 #end
 #src 12x16 font
-#dst 12x16 瀛椾綋
+#dst 12x16 字体
 #end
