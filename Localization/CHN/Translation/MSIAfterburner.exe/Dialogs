@@ -1,0 +1,721 @@
+#src Information
+#dst 信息
+#end
+#src System information
+#dst 系统信息
+#end
+
+#src General
+#dst 常规
+#end
+#src Master graphics processor selection
+#dst 主显卡选择
+#end
+#src Synchronize settings for similar graphics processors
+#dst 同型号显卡设置同步
+#end
+#src General properties
+#dst 常规设置
+#end
+#src Start with Windows
+#dst 开机启动
+#end
+#src Start minimized
+#dst 启动时最小化
+#end
+#src Compatibility properties
+#dst 兼容性设置
+#end
+#src Enable hardware control and monitoring
+#dst 启用硬件控制和监控
+#end
+#src Enable low-level IO driver
+#dst 启用底层 I/O 驱动程序
+#end
+#src Enable low-level hardware access interface
+#dst 启用底层硬件访问接口
+#end
+#src kernel mode
+#dst 内核模式
+#end
+#src user mode
+#dst 用户模式
+#end
+#src Unlock voltage control
+#dst 解锁电压控制
+#end
+#src reference design
+#dst 参考设计
+#end
+#src standard MSI
+#dst 标准 MSI
+#end
+#src extended MSI
+#dst 扩展 MSI
+#end
+#src Unlock voltage monitoring
+#dst 解锁电压监控
+#end
+#src Force constant voltage
+#dst 强制恒定电压
+#end
+#src Restore settings after suspended mode
+#dst 从休眠状态恢复设置
+#end
+#src Graphics processor type
+#dst 显卡类型
+#end
+#src Update checking properties
+#dst 更新
+#end
+#src Check for available product updates
+#dst 检查产品更新
+#end
+#src Check for available product beta versions
+#dst 检查测试版更新
+#end
+#src never
+#dst 从不
+#end
+#src on startup
+#dst 启动时
+#end
+#src on startup daily
+#dst 每天
+#end
+#src on startup weekly
+#dst 每周
+#end
+#src on startup monthly
+#dst 每月
+#end
+#src Check now
+#dst 立即检查
+#end
+#src AMD compatibility properties
+#dst AMD 兼容性设置
+#end
+#src Extend official overclocking limits
+#dst 扩展官方超频限制
+#end
+#src Disable ULPS
+#dst 禁用 ULPS（超低功耗状态）
+#end
+#src Unofficial overclocking mode
+#dst 非官方超频模式
+#end
+#src disabled
+#dst 禁用
+#hst ComboBox 1255
+#end
+#src with PowerPlay support
+#dst 支持 PowerPlay
+#end
+#src without PowerPlay support
+#dst 不支持 PowerPlay
+#end
+#src Reset display mode on applying unofficial overclocking
+#dst 应用非官方超频时重置显示模式
+#end
+#src Enable unified GPU usage monitoring
+#dst 启用统一 GPU 使用率监控
+#end
+#src Erase autosaved startup settings
+#dst 清除自动保存的启动设置
+#end
+
+#src Fan
+#dst 风扇
+#end
+#src Automatic fan control properties
+#dst 风扇转速控制
+#end
+#src Enable user defined software automatic fan control
+#dst 启用自定义风扇曲线
+#end
+#src Use firmware control mode
+#dst 使用固件控制模式
+#end
+
+#src Temperature, °C
+#dst 温度，°C
+#end
+#src Fan speed, %
+#dst 风扇转速，%
+#end
+#src Predefined fan speed curve
+#dst 预设风扇曲线
+#end
+#src Custom
+#dst 自定义
+#end
+#src Default
+#dst 默认
+#end
+#src Fan speed update period (in milliseconds)
+#dst 更新周期（毫秒）
+#end
+#src Temperature hysteresis (in °C)
+#dst 温度迟滞（°C）
+#end
+#src Force fan speed update on each period
+#dst 每个周期强制更新风扇转速
+#end
+#src Override zero fan speed with hardware curve
+#dst 使用硬件曲线覆盖零转速
+#end
+
+#src Monitoring
+#dst 监控
+#end
+#src Hardware monitoring properties
+#dst 硬件监控设置
+#end
+#src Hardware polling period (in milliseconds)
+#dst 硬件轮询周期（毫秒）
+#end
+#src Hardware monitoring history logging properties
+#dst 硬件监控日志记录设置
+#end
+#src Browse
+#dst 选择
+#end
+#src Stop logging when log size exceeds this value (in MB)
+#dst 日志文件大小限制 (MB)
+#end
+#src Recreate existing log files
+#dst 重新创建现有日志文件
+#end
+#src Global monitoring hotkeys
+#dst 全局监控快捷键
+#end
+
+#src Begin logging
+#dst 开始记录
+#end
+#src End logging
+#dst 停止记录
+#end
+#src Active hardware monitoring graphs
+#dst 启用硬件监控图表
+#end
+#src Graph columns
+#dst 图表列
+#end
+#src Data provider
+#dst 数据源
+#end
+#src Graph limits
+#dst 图表限制
+#end
+#src Correction formula
+#dst 校正公式
+#end
+#src Alarm when value is out of range
+#dst 超出范围时报警
+#end
+
+#src Override group name
+#dst 覆盖组名
+#end
+#src Override graph name
+#dst 覆盖图表名
+#end
+#src Enable data filtering
+#dst 启用数据过滤
+#end
+#src Layered graph color
+#dst 多层图表颜色
+#end
+
+#src Show in On-Screen Display
+#dst 在屏幕显示(OSD)中显示
+#end
+#src classic
+#dst 经典
+#end
+#src Show in Logitech keyboard LCD display
+#dst 在罗技键盘 LCD 显示屏上显示
+#end
+#src Show in tray icon
+#dst 在托盘图标中显示
+#end
+#src text
+#dst 文本
+#end
+#src barchart
+#dst 条形图
+#end
+#src text, graph
+#dst 文本，图表
+#end
+
+#src On-Screen Display
+#dst 屏幕显示(OSD)
+#end
+#src Global On-Screen Display hotkeys
+#dst 全局 OSD 快捷键
+#end
+#src Toggle On-Screen Display
+#dst 切换 OSD
+#end
+#src Show On-Screen Display
+#dst 显示 OSD
+#end
+#src Hide On-Screen Display
+#dst 隐藏 OSD
+#end
+#src Additional On-Screen Display properties
+#dst OSD 附加设置
+#end
+#src Show system time
+#dst 显示系统时间
+#end
+#src Show On-Screen Display on captured screenshots and videos
+#dst 在屏幕截图和视频中显示 OSD
+#end
+#src On-Screen Display server compatibility properties
+#dst OSD 服务器兼容性设置
+#end
+#src Toggle On-Screen Display server blocking
+#dst 切换 OSD 服务器阻塞
+#end
+#src Framerate limiter compatibility properties
+#dst 帧率限制器兼容性设置
+#end
+#src Toggle framerate limiter
+#dst 切换帧率限制器
+#end
+#src Enable framerate limiter
+#dst 启用帧率限制器
+#end
+#src Disable framerate limiter
+#dst 禁用帧率限制器
+#end
+#src More
+#dst 更多
+#dlu -100
+#end
+
+#src Benchmark
+#dst 基准测试
+#end
+#src Global benchmark hotkeys
+#dst 全局基准测试快捷键
+#end
+#src Begin recording
+#dst 开始录制
+#end
+#src End recording
+#dst 结束录制
+#end
+#src Benchmark results file properties
+#dst 基准测试结果文件设置
+#end
+#src Benchmark results file
+#dst 基准测试结果文件
+#end
+#src Recreate existing benchmark results files
+#dst 重新创建现有结果文件
+#end
+
+#src Profiles
+#dst 配置文件
+#end
+#src Profile contents
+#dst 配置文件内容
+#end
+#src Hardware settings
+#dst 硬件设置
+#end
+#src Monitoring settings
+#dst 监控设置
+#end
+#src Global profile hotkeys
+#dst 全局配置文件快捷键
+#end
+#src Profile
+#dst 配置文件
+#end
+#src Automatic profiles management
+#dst 自动配置文件管理
+#end
+#src 2D profile
+#dst 2D 配置文件
+#end
+#src 3D profile
+#dst 3D 配置文件
+#end
+
+#src User Interface
+#dst 用户界面
+#end
+#src User interface properties
+#dst 用户界面设置
+#end
+#src English
+#dst 英语
+#end
+#src Language
+#dst 语言
+#end
+#src Show user interface tooltips
+#dst 显示工具提示
+#end
+#src Show user interface hints
+#dst 显示用户界面提示
+#end
+#src Single tray icon mode
+#dst 单托盘图标模式
+#end
+#src Regional properties
+#dst 区域设置
+#end
+#src Temperature format
+#dst 温度格式
+#end
+#src Celsius
+#dst 摄氏度
+#end
+#src Fahrenheit
+#dst 华氏度
+#end
+#src Time format
+#dst 时间格式
+#end
+#src 12 hours
+#dst 12 小时制
+#end
+#src 24 hours
+#dst 24 小时制
+#end
+
+#src User interface skinning properties
+#dst 皮肤设置
+#end
+#src Skin composition mode
+#dst 皮肤合成模式
+#end
+#src traditional
+#dst 传统
+#end
+#src layered with colorkey
+#dst 带颜色键分层
+#end
+#src layered with alpha
+#dst 带 Alpha 通道分层
+#end
+#src Skin transparency
+#dst 透明度
+#end
+#src Transparent
+#dst 透明
+#end
+#src Opaque
+#dst 不透明
+#end
+
+#src Screen capture
+#dst 屏幕截图
+#end
+#src Global screen capture hotkeys
+#dst 全局屏幕截图快捷键
+#end
+#src Screen capture properties
+#dst 屏幕截图设置
+#end
+#src Screenshot format
+#dst 截图格式
+#end
+#src Screenshots folder
+#dst 截图文件夹
+#end
+#src View
+#dst 查看
+#end
+
+#src Video capture
+#dst 视频录制
+#end
+#src Video prerecord
+#dst 视频预录
+#end
+#src manual
+#dst 手动
+#end
+#src auto
+#dst 自动
+#end
+#src Prerecord buffer limit
+#dst 预录缓冲区限制
+#end
+#src sec or
+#dst 秒 或
+#end
+#src MB in
+#dst MB，位于
+#end
+#src RAM
+#dst 内存
+#end
+#src file
+#dst 文件
+#end
+#src Global video capture hotkeys
+#dst 全局视频录制快捷键
+#end
+#src Video capture properties
+#dst 视频录制设置
+#end
+#src Capture mode
+#dst 录制模式
+#end
+#src mixed
+#dst 混合模式
+#end
+#src desktop
+#dst 桌面
+#end
+#src 3D application
+#dst 3D 应用
+#end
+#src Frame size
+#dst 画面大小
+#end
+#src full frame
+#dst 全帧
+#end
+#src 1/2 frame
+#dst 1/2 帧
+#end
+#src 1/3 frame
+#dst 1/3 帧
+#end
+#src 1/4 frame
+#dst 1/4 帧
+#end
+#src Video format
+#dst 视频格式
+#end
+#src Container format
+#dst 封装格式
+#end
+#src uncompressed
+#dst 未压缩
+#end
+#src RTV1 compression
+#dst RTV1 压缩
+#end
+#src MJPG compression
+#dst MJPEG 压缩
+#end
+#src 1 FPS
+#dst 1 FPS
+#end
+#src 100 FPS
+#dst 100 FPS
+#end
+#src Enable gamma correction
+#dst 启用 Gamma 校正
+#end
+#src Videos folder
+#dst 视频文件夹
+#end
+#src Video capture compatibility properties
+#dst 视频录制兼容性设置
+#end
+#src Multithreaded optimization
+#dst 多线程优化
+#end
+#src automatic
+#dst 自动
+#end
+#src disabled
+#dst 禁用
+#end
+#src 1 compression thread
+#dst 1 个压缩线程
+#end
+#src 2 compression threads
+#dst 2 个压缩线程
+#end
+#src 3 compression threads
+#dst 3 个压缩线程
+#end
+#src 4 compression threads
+#dst 4 个压缩线程
+#end
+#src 5 compression threads
+#dst 5 个压缩线程
+#end
+#src 6 compression threads
+#dst 6 个压缩线程
+#end
+#src 7 compression threads
+#dst 7 个压缩线程
+#end
+#src 8 compression threads
+#dst 8 个压缩线程
+#end
+#src Crop video dimensions to make it multiples of 16
+#dst 将视频尺寸裁剪为 16 的倍数
+#end
+#src Audio capture properties
+#dst 音频录制设置
+#end
+#src Downmix multichannel audio to stereo
+#dst 将多声道音频降混为立体声
+#end
+#src stereo rip
+#dst 立体声撷取
+#end
+#src stereo mix
+#dst 立体声混音
+#end
+#src Mix multiple audio tracks
+#dst 混合多个音轨
+#end
+#src None
+#dst 无
+#end
+#src Auto select
+#dst 自动选择
+#end
+#src DirectSound capture device
+#dst DirectSound 录制设备
+#end
+#src WASAPI playback device
+#dst WASAPI 播放设备
+#end
+#src WASAPI capture device
+#dst WASAPI 录制设备
+#end
+#src Audio source #1
+#dst 音频源 1
+#end
+#src Audio source #2
+#dst 音频源 2
+#end
+#src Push-To-Talk hotkey
+#dst 按键说话快捷键
+#end
+#src There are no devices available
+#dst 没有可用设备
+#end
+#src Enable MJPG decoder
+#dst 启用 MJPEG 解码器
+#end
+#src Use dedicated encoder server
+#dst 使用专用编码器服务器
+#end
+#src NV12 compression
+#dst NV12 压缩 (4:2:0, 24-Bit)
+#end
+
+#src Voltage control
+#dst 电压控制
+#end
+#src Voltage control properties
+#dst 电压控制设置
+#end
+#src OK
+#dst 确定
+#end
+#src Cancel
+#dst 取消
+#end
+
+#src Hardware monitoring plugins
+#dst 硬件监控插件
+#end
+#src Active plugin modules
+#dst 已启用插件
+#end
+#src Setup
+#dst 设置
+#end
+
+#src On-Screen Display layout
+#dst 屏幕显示(OSD) 布局
+#end
+#src Active layout selection
+#dst 选择活动布局
+#end
+#src Active layout properties
+#dst 活动布局设置：
+#end
+#src Reset
+#dst 重置
+#end
+#src Apply
+#dst 应用
+#end
+
+#src Color
+#dst 颜色
+#end
+
+#src Add color
+#dst 添加颜色
+#end
+#src Variable slot
+#dst 变量槽
+#end
+
+#src Add alignment
+#dst 添加对齐
+#end
+#src Width (in characters)
+#dst 宽度（字符数）
+#end
+#src Type
+#dst 类型
+#end
+#src left
+#dst 左对齐
+#end
+#src right
+#dst 右对齐
+#end
+
+#src Add size
+#dst 添加大小
+#end
+#src Size (in percents)
+#dst 大小（百分比）
+#end
+#src Style
+#dst 样式
+#end
+#src superscript
+#dst 上标
+#end
+#src subscript
+#dst 下标
+#end
+
+#src Add item(s)
+#dst 添加项目
+#end
+
+#src Alarm settings
+#dst 报警设置
+#end
+#src Timeout (in milliseconds)
+#dst 超时（毫秒）
+#end
+#src Play sound on alarm
+#dst 报警时播放声音
+#end
+#src Launch application on alarm
+#dst 报警时启动应用程序
+#end
+#src Path
+#dst 路径
+#end
+#src Command line
+#dst 命令行
+#end
+#src Overclocking is disabled due to debug mod
+#dst 由于调试模式，超频已禁用
+#end

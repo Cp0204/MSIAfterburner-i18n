@@ -1,0 +1,5 @@
+该插件为具有SMART功能的硬盘驱动器提供 [b]HDD 温度[/b] 硬件监视数据源。
+
+
+提示：
+- 频繁的SMART数据轮询可能会导致某些硬盘驱动器和IDE控制器组合的显着性能下降。您可以通过在SMART.cfg文件的[Settings] 部分的[b]MinPollingInterval[/b]字段中指定最小SMART数据轮询间隔来调整此类系统的性能。

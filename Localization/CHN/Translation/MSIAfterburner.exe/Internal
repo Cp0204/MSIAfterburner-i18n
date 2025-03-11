@@ -1,0 +1,444 @@
+#src GPU temperature
+#dst GPU 温度
+#end
+#src GPU%d temperature
+#dst GPU%d 温度
+#end
+#src GPU voltage
+#dst GPU 电压
+#end
+#src GPU%d voltage
+#dst GPU%d 电压
+#end
+#src PCB temperature
+#dst PCB 温度
+#end
+#src PCB%d temperature
+#dst PCB%d 温度
+#end
+#src Fan speed
+#dst GPU 风扇转速 (%)
+#end
+#src GPU%d fan speed
+#dst GPU%d 风扇转速 (%)
+#end
+#src Core clock
+#dst GPU 核心频率
+#end
+#src GPU%d core clock
+#dst GPU%d 核心频率
+#end
+#src Shader clock
+#dst GPU 着色器频率
+#end
+#src GPU%d shader clock
+#dst GPU%d 着色器频率
+#end
+#src Memory clock
+#dst 显存频率
+#end
+#src GPU%d memory clock
+#dst GPU%d 显存频率
+#end
+#src GPU usage
+#dst GPU 使用率
+#end
+#src GPU%d usage
+#dst GPU%d 使用率
+#end
+#src Framerate
+#dst 帧率
+#end
+#src Memory usage
+#dst 显存占用
+#end
+#src GPU%d memory usage
+#dst GPU%d 显存占用
+#end
+#src Memory usage \ process
+#dst 显存占用 (进程)
+#end
+#src GPU%d memory usage \ process
+#dst GPU%d 显存占用 (进程)
+#end
+#src °C
+#dst °C
+#end
+#src V
+#dst V
+#end
+#src MHz
+#dst MHz
+#end
+#src MB
+#dst MB
+#end
+#src FPS
+#dst FPS
+#end
+#src %dMHz
+#dst %dMHz
+#end
+#src %d%%
+#dst %d%%
+#end
+#src %.3fV
+#dst %.3fV
+#end
+#src %+.3fV
+#dst %+.3fV
+#end
+#src Auto
+#dst 自动
+#end
+#src Aux voltage
+#dst GPU 辅助电压
+#end
+#src GPU%d aux voltage
+#dst GPU%d 辅助电压
+#end
+#src Memory voltage
+#dst 显存电压
+#end
+#src GPU%d memory voltage
+#dst GPU%d 显存电压
+#end
+#src Fan tachometer
+#dst GPU 风扇转速 (RPM)
+#end
+#src GPU%d fan tachometer
+#dst GPU%d 风扇转速 (RPM)
+#end
+#src RPM
+#dst RPM
+#end
+#src Memory temperature
+#dst 显存温度
+#end
+#src GPU%d memory temperature
+#dst GPU%d 显存温度
+#end
+#src VRM temperature
+#dst VRM 温度
+#end
+#src GPU%d VRM temperature
+#dst GPU%d VRM 温度
+#end
+#src I confirm that I am aware of unofficial overclocking limitations and fully understand that MSI will not provide me any support on it
+#dst 我确认我已知晓非官方超频的限制，并完全理解 MSI 不会就此提供任何支持。
+#end
+#src Power
+#dst GPU 功耗
+#end
+#src GPU%d power
+#dst GPU%d 功耗
+#end
+#src Power percent
+#dst GPU 功耗 (%)
+#end
+#src GPU%d power percent
+#dst GPU%d 功耗 (%)
+#end
+#src Frametime
+#dst 帧时间
+#end
+#src ms
+#dst ms
+#end
+#src Temp limit
+#dst 温度限制
+#end
+#src GPU%d temp limit
+#dst GPU%d 温度限制
+#end
+#src Power limit
+#dst 功耗限制
+#end
+#src GPU%d power limit
+#dst GPU%d 功耗限制
+#end
+#src Voltage limit
+#dst 电压限制
+#end
+#src GPU%d voltage limit
+#dst GPU%d 电压限制
+#end
+#src OV max limit
+#dst 最大超频电压限制
+#end
+#src GPU%d OV max limit
+#dst GPU%d 最大超频电压限制
+#end
+#src FB usage
+#dst 显存帧缓冲区使用率
+#end
+#src GPU%d FB usage
+#dst GPU%d 显存帧缓冲区使用率
+#end
+#src VID usage
+#dst VID 使用率
+#end
+#src GPU%d VID usage
+#dst GPU%d VID 使用率
+#end
+#src BUS usage
+#dst 总线使用率
+#end
+#src GPU%d BUS usage
+#dst GPU%d 总线使用率
+#end
+#src No load limit
+#dst 空载限制
+#end
+#src GPU%d no load limit
+#dst GPU%d 空载限制
+#end
+#src CPU usage
+#dst CPU 使用率
+#end
+#src CPU%d usage
+#dst CPU%d 使用率
+#end
+#src RAM usage
+#dst 内存使用量
+#end
+#src RAM usage \ process
+#dst 内存使用量 (进程)
+#end
+#src Commit charge
+#dst 提交内存
+#end
+#src CPU temperature
+#dst CPU 温度
+#end
+#src CPU%d temperature
+#dst CPU%d 温度
+#end
+#src SLI sync limit
+#dst SLI 同步限制
+#end
+#src GPU%d SLI sync limit
+#dst GPU%d SLI 同步限制
+#end
+#src Frequency, MHz
+#dst 频率 (MHz)
+#end
+#src Voltage, mV
+#dst 电压 (mV)
+#end
+#src Power, %
+#dst 功耗 (%)
+#end
+#src OC Scanner
+#dst OC Scanner
+#end
+#src W
+#dst W
+#end
+#src CPU clock
+#dst CPU 频率
+#end
+#src CPU%d clock
+#dst CPU%d 频率
+#end
+#src Aux2 voltage
+#dst GPU 辅助电压 2
+#end
+#src GPU%d aux2 voltage
+#dst GPU%d 辅助电压 2
+#end
+
+#src GPU temperature 2
+#dst GPU 温度 2
+#end
+#src GPU%d temperature 2
+#dst GPU%d 温度 2
+#end
+#src PCB temperature 2
+#dst PCB 温度 2
+#end
+#src PCB%d temperature 2
+#dst PCB%d 温度 2
+#end
+#src Memory temperature 2
+#dst 显存温度 2
+#end
+#src GPU%d memory temperature 2
+#dst GPU%d 显存温度 2
+#end
+#src VRM temperature 2
+#dst VRM 温度 2
+#end
+#src GPU%d VRM temperature 2
+#dst GPU%d VRM 温度 2
+#end
+
+#src GPU temperature 3
+#dst GPU 温度 3
+#end
+#src GPU%d temperature 3
+#dst GPU%d 温度 3
+#end
+#src PCB temperature 3
+#dst PCB 温度 3
+#end
+#src PCB%d temperature 3
+#dst PCB%d 温度 3
+#end
+#src Memory temperature 3
+#dst 显存温度 3
+#end
+#src GPU%d memory temperature 3
+#dst GPU%d 显存温度 3
+#end
+#src VRM temperature 3
+#dst VRM 温度 3
+#end
+#src GPU%d VRM temperature 3
+#dst GPU%d VRM 温度 3
+#end
+
+#src GPU temperature 4
+#dst GPU 温度 4
+#end
+#src GPU%d temperature 4
+#dst GPU%d 温度 4
+#end
+#src PCB temperature 4
+#dst PCB 温度 4
+#end
+#src PCB%d temperature 4
+#dst PCB%d 温度 4
+#end
+#src Memory temperature 4
+#dst 显存温度 4
+#end
+#src GPU%d memory temperature 4
+#dst GPU%d 显存温度 4
+#end
+#src VRM temperature 4
+#dst VRM 温度 4
+#end
+#src GPU%d VRM temperature 4
+#dst GPU%d VRM 温度 4
+#end
+
+#src GPU temperature 5
+#dst GPU 温度 5
+#end
+#src GPU%d temperature 5
+#dst GPU%d 温度 5
+#end
+#src PCB temperature 5
+#dst PCB 温度 5
+#end
+#src PCB%d temperature 5
+#dst PCB%d 温度 5
+#end
+#src Memory temperature 5
+#dst 显存温度 5
+#end
+#src GPU%d memory temperature 5
+#dst GPU%d 显存温度 5
+#end
+#src VRM temperature 5
+#dst VRM 温度 5
+#end
+#src GPU%d VRM temperature 5
+#dst GPU%d VRM 温度 5
+#end
+#src <GPU plugin>
+#dst <GPU 插件>
+#end
+#src <CPU plugin>
+#dst <CPU 插件>
+#end
+#src <motherboard plugin>
+#dst <主板插件>
+#end
+#src <RAM plugin>
+#dst <内存插件>
+#end
+#src <HDD plugin>
+#dst <硬盘插件>
+#end
+#src <NET plugin>
+#dst <网络插件>
+#end
+#src <PSU plugin>
+#dst <电源插件>
+#end
+#src <UPS plugin>
+#dst <UPS 插件>
+#end
+#src <miscellaneous plugin>
+#dst <其他插件>
+#end
+
+#src Framerate Min
+#dst 最小帧率
+#end
+#src Framerate Avg
+#dst 平均帧率
+#end
+#src Framerate Max
+#dst 最大帧率
+#end
+#src Framerate 1% Low
+#dst 1% 低帧率
+#end
+#src Framerate 0.1% Low
+#dst 0.1% 低帧率
+#end
+
+#src CPU power
+#dst CPU 功耗
+#end
+#src CPU%d power
+#dst CPU%d 功耗
+#end
+
+#src Fan speed 2
+#dst GPU 风扇转速 2 (%)
+#end
+#src GPU%d fan speed 2
+#dst GPU%d 风扇转速 2 (%)
+#end
+#src Fan tachometer 2
+#dst GPU 风扇转速 2 (RPM)
+#end
+#src GPU%d fan tachometer 2
+#dst GPU%d 风扇转速 2 (RPM)
+#end
+
+#src Fan speed 3
+#dst GPU 风扇转速 3 (%)
+#end
+#src GPU%d fan speed 3
+#dst GPU%d 风扇转速 3 (%)
+#end
+#src Fan tachometer 3
+#dst GPU 风扇转速 3 (RPM)
+#end
+#src GPU%d fan tachometer 3
+#dst GPU%d 风扇转速 3 (RPM)
+#end
+
+#src Fan 1
+#dst 风扇 1
+#end
+#src Fan 2
+#dst 风扇 2
+#end
+#src Fan 3
+#dst 风扇 3
+#end
+#src Fan 4
+#dst 风扇 4
+#end
+#src firmware
+#dst 固件
+#end
+#src %d nodes
+#dst %d 个节点
+#end

@@ -1,0 +1,8 @@
+暂时阻止OSD服务以兼容
+某些%PRODUCTNAME%功能（例如帧速率监视，OSD渲染，屏幕截图和自动配置文件管理）取决于附加的%SERVERPRODUCTNAME%进程。这就是为什么只要您启用上述任何功能，%SERVERPRODUCTNAME%都会由%PRODUCTNAME%自动启动。
+但是，某些在线游戏的系统可能会限制OSD使用，并在%SERVERPRODUCTNAME%运行时阻止客户端与游戏服务器的连接。
+为了简化这些问题诊断，您可以使用热键临时阻止%SERVERPRODUCTNAME%并将其从内存中清除，即使%PRODUCTNAME%需要%SERVERPRODUCTNAME%提供的部分功能。请注意，在服务被阻止和清除时，所有依赖于服务的功能将停止工作。
+
+提示：
+- 某些热键组合（例如<1> ... <5>，<Ctrl> + <1> ... <Ctrl> + <5>和<Ctrl> + <D>）被保留，不能使用。
+- 您可以通过高级属性中的<用户界面>选项卡禁用用户界面工具提示。

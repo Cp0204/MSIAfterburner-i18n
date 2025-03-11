@@ -1,0 +1,12 @@
+#src classic
+#dst 经典
+#end
+#src modern
+#dst 现代
+#end
+#src modern mono
+#dst 现代单色
+#end
+#src modern web
+#dst 现代网页
+#end
